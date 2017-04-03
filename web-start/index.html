@@ -107,10 +107,20 @@
   </main>
 </div>
 
-<!-- Firebase -->
-<!-- ***********************************************************************************************************************
-     * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
-     *********************************************************************************************************************** -->
+
+<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBP3Q_OAIq4Pz3g4QWnbpqjYC5GTb_2NPI",
+    authDomain: "sample-firebase-4eb34.firebaseapp.com",
+    databaseURL: "https://sample-firebase-4eb34.firebaseio.com",
+    projectId: "sample-firebase-4eb34",
+    storageBucket: "sample-firebase-4eb34.appspot.com",
+    messagingSenderId: "1045566424239"
+  };
+  firebase.initializeApp(config);
+</script>
 
 <script src="scripts/main.js"></script>
 </body>
